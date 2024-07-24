@@ -33,6 +33,16 @@ margin: 25px;
 font-family: serif;
 }
 
+i{
+    margin:4px;
+    color: rgb(94, 94, 94);
+
+}
+
+p{
+    font-family: "Source Serif 4", serif
+}
+
 .quienes-somos{
     display: flex;
 flex-direction: column;
@@ -74,18 +84,76 @@ div.card img{
     height: 40%;
 }
 
+.galery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 div.galery-container{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
     width: 85%;
 }
+
 div.galery-img-container img{
-    width: 100%;
-    margin: 25px;
+    width: 150px;
+    height: 150px;
     padding: 10px;
     border-radius: 3px;
     border: 1px black solid;
+    transition: 0.8s ease;
 }
+
+div.galery-img-container img:hover{
+    transform: scale(1.2);
+    background-color: rgb(201, 195, 167);
+    box-shadow: 4px 4px 4px black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+}
+form label{
+    margin-bottom: 2px
+}
+form textarea, form input{
+    margin-bottom: 12px;
+    padding: 8px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid grey;
+}
+form button{
+padding: 12px;
+border: none;
+background-color: #333;
+color: #fff;
+cursor: pointer;
+border-radius: 5px;
+width: 100px;
+margin: 5px 10px;
+}
+form button:hover{
+    background-color: #555;
+    color: #fff;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.button-delete{
+    background-color: rgb(170, 3, 3);
+}
+.button-push{
+    background-color: rgb(0, 102, 0);
+}
+
 footer{
     text-align: center;
     background-color: rgb(41, 41, 41);
