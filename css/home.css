@@ -1,3 +1,10 @@
-body header nav.navClass{
-    background-color: rgb(2, 180, 106) !important;
+
+body header nav div img{
+    width: 75px;
+}
+h1{
+    margin: 25px;
+    text-align: center;
+    padding: 25px;
+    font-family: serif;
 }
