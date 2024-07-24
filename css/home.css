@@ -14,7 +14,7 @@ align-items: center;
     height: 100vh;
 }
 body header{
-    background-color: rgb(158, 229, 241)
+    background-color: rgb(201, 195, 167)
 }
 body header nav div img{
     width: 75px;
@@ -42,7 +42,9 @@ align-items: center;
 .quienes-somos-container{
     height: 70%;
     width: 70%;
-    background-color: rgba(128, 128, 128, 0.671);
+    background-color:rgba(201, 195, 167, 0.616);
+    border-radius: 8px
+
 }
 .quienes-somos p{
 text-align: center;
@@ -57,13 +59,17 @@ div.card-container{
 
 div.card{
     width: 18rem;
-    margin: 20px;
+    margin: 25px;
     padding: 10px;
     border-radius: 8px;
+    transition: 0.8s ease;
 }
-div.card p{
+div.card:hover{
+    transform: scale(1.2);
+    background-color: rgb(201, 195, 167);
+    box-shadow: 7px 7px 4px black;
+}
 
-}
 div.card img{
     height: 40%;
 }
