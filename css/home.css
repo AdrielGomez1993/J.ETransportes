@@ -2,9 +2,16 @@
     margin: o;
     padding: 0;
 }
-
-body{
-    background-color: rgb(235, 234, 234)!important;
+#home{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.background{
+    position: fixed;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
 }
 body header nav div img{
     width: 75px;
@@ -23,17 +30,39 @@ margin: 25px;
 font-family: serif;
 }
 
+.quienes-somos{
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.quienes-somos-container{
+    height: 70%;
+    width: 70%;
+    background-color: rgba(128, 128, 128, 0.671);
+}
+.quienes-somos p{
+text-align: center;
+margin: 25px;
+
+}
+div.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+}
+
 div.card{
     width: 18rem;
     margin: 20px;
     padding: 10px;
     border-radius: 8px;
 }
-div.card-container{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: 45%;
+div.card p{
+
+}
+div.card img{
+    height: 40%;
 }
 
 div.galery-container{
