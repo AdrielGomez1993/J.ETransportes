@@ -1,3 +1,8 @@
+*{
+    margin: o;
+    padding: 0;
+}
+
 body{
     background-color: rgb(235, 234, 234)!important;
 }
@@ -11,19 +16,27 @@ h1 {
     font-family: serif;
 }
 
-h2{
+h2, h3{
 text-align: center;
 padding: 25px;
 margin: 25px;
 font-family: serif;
 }
-main p{
-    margin: 0 250px;
-    text-align: center;
-    color: rgb(102, 102, 102);
-    padding: 5px; 
+
+div.card-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 45%;
 }
 
+div.galery-container{
+    display: flex;
+}
+div.galery-img-container img{
+    width: 85%;
+    margin: 25px;
+}
 footer{
     text-align: center;
     background-color: rgb(41, 41, 41);
