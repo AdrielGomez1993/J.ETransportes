@@ -15,10 +15,17 @@ h2{
 text-align: center;
 padding: 25px;
 margin: 25px;
+font-family: serif;
 }
 main p{
     margin: 0 250px;
     text-align: center;
     color: rgb(102, 102, 102);
     padding: 5px; 
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    color: white;
 }
