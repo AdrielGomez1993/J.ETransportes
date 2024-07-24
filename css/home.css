@@ -39,10 +39,14 @@ div.card-container{
 div.galery-container{
     display: flex;
     gap: 20px;
+    width: 85%;
 }
 div.galery-img-container img{
-    width: 25%;
+    width: 100%;
     margin: 25px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px black solid;
 }
 footer{
     text-align: center;
