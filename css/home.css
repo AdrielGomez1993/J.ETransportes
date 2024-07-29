@@ -96,6 +96,7 @@ div.galery-container{
     justify-content: center;
     gap: 20px;
     width: 85%;
+    margin-left: 100px;
 }
 
 div.galery-img-container img{
