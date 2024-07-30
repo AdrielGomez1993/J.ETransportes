@@ -61,6 +61,12 @@ text-align: center;
 margin: 25px;
 
 }
+
+div.parrafos-servicios p{
+text-align: center;
+margin: 25px;
+}
+
 div.card-container{
     display: flex;
     flex-wrap: wrap;
