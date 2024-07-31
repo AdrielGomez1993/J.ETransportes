@@ -35,7 +35,7 @@ h1 {
 
 .slider ul{
     display: flex;
-    animation: cambio 20s infinite;
+    animation: cambio 20s ease-in-out infinite;
     width: 400%;
 }
 
