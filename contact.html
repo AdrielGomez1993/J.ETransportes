@@ -56,8 +56,19 @@
             <input type="text" name="Telefono">
             <label for="email">Email</label>
             <input type="email" name="email">
+            <label for="work">Tipo de trabajo</label>
+            <select name="work" id="work">
+            <option value="1">Seleccionar</option>
+            <option value="2">Soga</option>
+            <option value="3">Mudanza</option>
+            <option value="4">Embalaje</option>
+          </select>
             <label for="message">Mensaje:</label>
             <textarea name="message"></textarea>
+            <div class="checkbox-container">
+            <label for="info">Acepto los terminos y condiciones</label>
+            <input type="checkbox" name="info" id="info">
+          </div>
             <div class="button-container">
             <button class="button-push" type="submit">Enviar</button>
             <button class="button-delete"type="reset">Borrar</button>
