@@ -176,11 +176,14 @@ form{
 form label{
     margin-bottom: 2px
 }
-form textarea, form input{
-    margin-bottom: 12px;
-    padding: 8px;
+form input{
+    margin-bottom: 10px;
+    padding: 1px;
     border-radius: 5px 5px 5px 5px;
     border: 1px solid grey;
+}
+form textarea{
+padding: 35px;
 }
 form button{
 padding: 12px;
