@@ -132,6 +132,46 @@ div.card img{
     height: 40%;
 }
 
+#newcards p{
+    text-align: center;
+    margin: 25px;
+}
+
+#newcards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nwcard{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.nwcard:hover{
+    transform: scale(1.2);
+    background-color: rgb(201, 195, 167);
+    box-shadow: 4px 4px 2px black;
+}
+
+.newCard image{
+    width: 80%;
+}
+
+.newCard-content{
+    margin-top: 10px;
+}
+
+input:valid{
+    border-color: green;
+}
+
+input:invalid{
+    border-color: red;
+}
+
 .galery{
     display: flex;
     flex-direction: column;

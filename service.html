@@ -78,12 +78,43 @@
           </div>
         </section>
         <hr>
+        <section id="newcards">
+          <h2>
+            Queres ser parte de nuestra empresa?
+          </h2>
+          <hr>
+          <p>Agrega tu utilitario con su descripcion para poder contactarnos con vos!</p>
+          <div id="newcards-container">
+
+          </div>
+          <div id="newcards-form-container">
+            <h3>Agregar utilitario</h3>
+            <form id="newcards-form">
+              <label for="newcards-title">Marca y Modelo:</label>
+              <input type="text" id="newcards-title" name="newcards-title" required>
+              <label for="newcards-kilometraje">Kilometraje:</label>
+              <input type="text" id="newcards-kilometraje" name="newcards-kilometraje" required>
+              <label for="newcards-horario">Rango horario:</label>
+              <input type="text" id="newcards-horario" name="newcards-horario" required>
+              <label for="newcards-contact">Numero de contacto:</label>
+              <input type="text" id="newcards-contact" name="newcards-contact" required>
+              <label for="newcards-image">Url del utilitario:</label>
+              <input type="url" id="newcards-image" name="newcards-image" placeholder="https://picsum.photos/200">
+              <label for="newcards-bg-color">Color del fondo:</label>
+              <input type="color" name="newcards-bg-color" id="newcards-bg-color" value="#ffffff">
+              <label for="newcards-border-color">Color de bordes:</label>
+              <input type="color" name="newcards-border-color" id="newcards-border-color" value="#000000">
+              <button type="submit">Añadir utilitario</button>
+            </form>
+          </div>
+        </section>
         <div class="espaciado"></div>
         <footer>
           <div class="footer-container"></div>
           <p>© Creado por Adriel E. Gomez</p>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/335220bf38.js" crossorigin="anonymous"></script>    
+        <script src="https://kit.fontawesome.com/335220bf38.js" crossorigin="anonymous"></script>  
+        <script src="script.js"></script>  
 </body>
 </html>
