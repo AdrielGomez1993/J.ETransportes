@@ -150,18 +150,21 @@ div.card img{
 .nwcard{
     border: 2px solid white;
     border-radius: 5px;
-    margin: 20px;
+    margin: 10px;
     padding: 10px;
+    transition: 0.8s ease;
+    width: 225px;
+    height: auto;
 }
 
 .nwcard:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     background-color: rgb(201, 195, 167);
     box-shadow: 4px 4px 2px black;
 }
 
 .newCard image{
-    width: 80%;
+    width: 100%;
 }
 
 .newCard-content{
