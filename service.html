@@ -100,11 +100,18 @@
               <input type="text" id="newcards-contact" name="newcards-contact" required>
               <label for="newcards-image">Url del utilitario:</label>
               <input type="url" id="newcards-image" name="newcards-image" placeholder="https://picsum.photos/200">
-              <label for="newcards-bg-color">Color del fondo:</label>
+              <div id="newcards-estilos">
+                <label for="newcards-bg-color">Color del fondo:</label>
+                    <input type="color" name="newcards-bg-color" id="newcards-bg-color" value="#ffffff">
+                    <label for="newcards-border-color">Color de bordes:</label>
+                    <input type="color" name="newcards-border-color" id="newcards-border-color" value="#000000">
+                    <button type="submit">Añadir</button>
+              </div>;
+              <!-- <label for="newcards-bg-color">Color del fondo:</label>
               <input type="color" name="newcards-bg-color" id="newcards-bg-color" value="#ffffff">
               <label for="newcards-border-color">Color de bordes:</label>
               <input type="color" name="newcards-border-color" id="newcards-border-color" value="#000000">
-              <button type="submit">Añadir utilitario</button>
+              <button type="submit">Añadir utilitario</button> -->
             </form>
           </div>
         </section>

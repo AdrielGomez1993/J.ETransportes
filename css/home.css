@@ -164,6 +164,27 @@ div.card img{
     margin-top: 10px;
 }
 
+#newcards-estilos{
+    margin: 10px;
+}
+
+#newcards-estilos button{
+    padding: 12px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    margin: 5px 10px;  
+    height: 45px;  
+}
+
+#newcards-estilos button:hover{
+    background-color: #555;
+    color: #fff;
+}
+
 input:valid{
     border-color: green;
 }
