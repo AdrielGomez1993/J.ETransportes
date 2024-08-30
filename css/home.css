@@ -143,6 +143,10 @@ div.card img{
     justify-content: center;
 }
 
+#newcards-form-container{
+    text-align: center;
+}
+
 .nwcard{
     border: 2px solid white;
     border-radius: 5px;
